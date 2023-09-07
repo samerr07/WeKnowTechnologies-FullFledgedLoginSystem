@@ -1,1 +1,1 @@
-export const BASEURL = "https://backserver.vercel.app/api/v1"
+export const BASEURL = "https://back2-ten.vercel.app/api/v1"
