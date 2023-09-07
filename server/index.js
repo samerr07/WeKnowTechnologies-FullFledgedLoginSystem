@@ -7,7 +7,7 @@ const cookieParser = require("cookie-parser");
 
 dotenv.config()
 const server = express();
-const port = 8080;
+// const port = 8080;
 const corsOptions = {
   origin:true,
   credentials:true,
@@ -34,6 +34,6 @@ server.get("/",(req,res)=>{
 })
 
 
-server.listen(port,()=>{
+server.listen(8080,()=>{
     console.log(`Server Started on ${port}`);
 })
