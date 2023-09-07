@@ -29,7 +29,8 @@ server.use(cors(corsOptions))
 server.use("/api/v1/auth",authRouter.router)
 
 server.get("/",(req,res)=>{
-  console.log("Hello World")
+    
+    res.send("Hello World")
 })
 
 
