@@ -28,6 +28,10 @@ server.use(cookieParser())
 server.use(cors(corsOptions))
 server.use("/api/v1/auth",authRouter.router)
 
+server.get("/",(req,res)=>{
+  console.log("Hello World")
+})
+
 
 server.listen(port,()=>{
     console.log(`Server Started on ${port}`);
